@@ -13,6 +13,7 @@ struct GPApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             GPItem.self,
+            GPSubItem.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
