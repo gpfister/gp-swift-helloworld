@@ -12,6 +12,7 @@
 		793511372B80D1EE00264803 /* GPItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793511362B80D1EE00264803 /* GPItem.swift */; };
 		793511392B80D1F000264803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793511382B80D1F000264803 /* Assets.xcassets */; };
 		7935113D2B80D1F000264803 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7935113C2B80D1F000264803 /* Preview Assets.xcassets */; };
+		797585BB2B879A610004F77E /* GPSubItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797585BA2B879A610004F77E /* GPSubItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		7935113E2B80D1F000264803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793511472B80D6FF00264803 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		793511482B80D73A00264803 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		797585BA2B879A610004F77E /* GPSubItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSubItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				793511362B80D1EE00264803 /* GPItem.swift */,
+				797585BA2B879A610004F77E /* GPSubItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				793511352B80D1EE00264803 /* GPContentView.swift in Sources */,
 				793511372B80D1EE00264803 /* GPItem.swift in Sources */,
+				797585BB2B879A610004F77E /* GPSubItem.swift in Sources */,
 				793511332B80D1EE00264803 /* GPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
